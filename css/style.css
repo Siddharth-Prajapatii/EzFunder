@@ -1,0 +1,835 @@
+body{
+	width: 100%;
+	margin: 0;
+	float: left;
+	padding: 0;
+	font-family: "Verdana","lato";
+	font-size:14px;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+*,*:after,*:before{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	max-width: 1170px;
+	padding:0 15px;
+	margin: 0 auto;
+}
+
+.header{
+	float:left;
+	padding: 3% 0% 3% 0%;
+	margin: 0;
+	width: 100%;
+}
+
+.header .logo_text{
+	float: left;
+	margin: 0;
+	padding:0;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "Verdana"
+}
+
+.header .logo_text a{
+	color:black;
+	font-size:28px;
+	text-decoration:none;
+}
+
+.header ul{
+	list-style-type: none;
+	float: right;
+	margin: 0px;
+	padding:0px;
+}
+
+.header ul li{
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+.header ul li a{
+	padding: 0px 15px 0px 15px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    text-decoration: none;
+}
+.header ul li a:hover
+{
+	color:black;
+}
+
+.header ul li .home_text{color:#FD7E14;}
+
+.header ul li button{
+	padding:0px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	background:#FD7E14;
+	border:none;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.content{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background:url("../images/hero_bg_1.jpg") no-repeat ;
+	background-size: cover;
+	background-position:left top;
+	height: 600px;
+
+}
+
+.banner_text{
+	float: left;
+    margin: 0;
+    padding:0px;
+    position: relative;
+    top: 185px;
+    left: -77px;
+}
+
+.banner_text1{
+	color:white;
+	font-size: 60px;
+	font-weight: 600;
+	margin:0px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.banner_text2{
+	color:white;
+	font-size: 20px;
+	margin:0px;
+	padding-bottom: 15px;
+}
+
+.main_title{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding-top: 12%;
+	text-align: center;
+}
+
+.main_title .text1{
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	float: left;
+	margin: 0;
+	padding-top: 1%;
+	width: 100%;
+	text-align:center;
+	font-size: 20px;
+}
+
+.main_title .text2{
+	color: black;
+	text-align: center;
+	float: left;
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 2.5%;
+	width: 100%;
+	text-align:center;
+	font-size: 30px;
+	position: relative;
+}
+
+.main_title .text2:before{
+	content: "";
+    position: absolute;
+    width: 5%;
+    margin: 0;
+    bottom: 0;
+    left: 48%;
+    border-bottom: 4px solid #FD7E14;
+}
+
+.insurance_type{
+	width: 100%;
+	float: left;
+	margin-top: 4%;
+	padding: 0;
+}
+
+.insurance{
+	width: 32%;
+	float: left;
+	padding: 0%;
+	margin-right: 1.72%;
+	border:1px solid rgba(0,0,0,0.1);
+}
+
+.insurance img{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.insurance_type .insurance:last-child{
+	padding:0px;
+	float: left;
+	margin: 0px;
+}
+
+.insu_name{
+	float: left;
+	margin:2% 0% 0% 4%;
+	padding: 0;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.insu_info{
+	float: left;
+	text-align: left;
+	margin:2% 0% 0% 4%;
+	padding: 0;
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+}
+
+.learn_more{
+	float: left;
+	text-align: left;
+	margin:2% 0% 0% 4%;
+	padding: 0;
+}
+
+.learn_more button{
+	padding:0px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	background:#FD7E14;
+	border:none;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	font-weight: 300;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+.text_trusted_company{
+	width: 100%;
+	margin-top:10%;
+	padding: 0;
+	float: left;
+	font-size: 18px;
+	word-spacing: 0.2px;
+	color: rgba(0,0,0,0.8);
+}
+
+.img_trusted{
+	width: 100%;
+	float: left;
+	margin-top: 4%;
+	padding:0;
+	box-sizing: border-box;
+	background:url("../images/about_1.jpg") center center;
+	height: 800px;
+	background-size: cover;
+}
+
+.info_trusted{
+	width:70%;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.message{
+	float: left;
+	margin-left: 6.666%;
+	padding:10px;
+	width: 40%;
+	font-size: 18px;
+	color: rgba(0,0,0,0.6);
+	line-height:40px;
+}
+
+
+.content3{
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+	padding: 0;
+}
+
+.contentA{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.contentA_img{
+	float: left;
+	width: 50%;
+	height: 543px;
+	margin: 0;
+	padding: 0;
+	background:url("../images/hero_bg_2.jpg") no-repeat;
+	background-size: contain;
+}
+
+.contentA_details{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contentB{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.contentB_img{
+	float: left;
+	width: 50%;
+	height:543px;
+	margin: 0;
+	padding: 0;
+	background:url("../images/hero_bg_11.jpg") no-repeat;
+	background-size: contain;
+}
+
+.contentB_details{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main_title2{
+	float: left;
+	width: 100%;
+	padding: 3% 0% 0% 15%;
+	margin:0;
+	box-sizing: border-box;
+}
+
+.main_title2 .text1{
+	color: rgba(0, 0, 0, 0.6);
+	text-align:left; ;
+	float: left;
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	font-size: 20px;
+}
+
+.main_title2 .text2{
+	color: black;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	width: 100%;
+	font-size: 32px;
+	position: relative;
+}
+
+.main_title2 .text2:after{
+	content: "";
+    position: absolute;
+    width: 6%;
+    margin: 0;
+	bottom: 0;
+    left: 1%;
+    border-bottom: 4px solid #FD7E14;
+}
+
+.services{
+	width: 100%;
+	float: left;
+	margin-top:5%;
+	padding: 0;
+}
+
+.services ul{
+	
+	width: 100%;
+	float: left;
+	margin: 0 0 250px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.services ul li{
+	width: 25%;
+	padding: 0% 2% 0% 2%;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	box-sizing: border-box;
+}
+
+
+.services ul li:first-child{
+	padding: 0% 2% 0% 0%;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+
+}
+
+.services ul li:last-child{
+	padding: 0% 0% 0% 2%;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+	border:none;
+
+}
+
+.serv{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.serv .icon img{
+	max-height: 45px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.serv .serv_name{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	font-size: 16px;
+
+}
+
+.serv .serv_info{
+	margin:1% 0% 0% 0%;
+	padding: 0;
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	line-height: 28px;
+}
+
+.img_house_damage{
+	float: left;
+	margin: 0;
+	padding-bottom:  10%;
+	width: 50%;
+}
+
+.img_house_damage img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+.details_house_damage{
+	float: left;
+	width: 40%;
+	margin: 0;
+	padding: 0 0 10% 10%;
+}
+
+.details_house_damage .hdtitle{
+	font-size:30px;
+	position: relative;
+	margin-bottom:4px; 
+	padding:0;
+}
+.details_house_damage .hdtitle:after{
+	content: "";
+    position: absolute;
+    width: 10%;
+    margin: 0;
+	bottom: -25px;
+    left: 1%;
+    border-bottom: 4px solid #FD7E14;
+}
+
+.hdinfo{
+	float: left;
+	margin-top: 40px;
+	padding: 0;
+	font-size: 20px;
+	color: rgba(0,0,0,0.4);
+	width: 100%;
+	padding: 0px;
+	line-height: 35px;
+}
+
+.insured_yours_now{
+	float: left;
+	width: 230px;
+	height: 50px;
+	border:1px solid #FD7E14;
+	border-radius: 5px;
+	color: #FD7E14;
+	background:white;
+	font-size: 20px;
+	margin-top: 13px;
+	cursor: pointer;
+}
+
+
+.our_founder{
+	width: 100%;
+	float: left;
+	margin:0;
+	padding-top: 5%;
+	background:url("../images/topography.png");
+}
+
+.text_our_founder{
+	text-align:center;
+	font-size: 30px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.text_our_founder:after{
+	content: "";
+    width: 4%;
+    position: absolute;
+    bottom: -22px;
+    left: 48.5%;
+    border: 2px solid #FD7E14
+}
+
+.founder{
+	width: 40%;
+	box-sizing: border-box;
+	margin: 5% 20% 12% 0%;
+	padding: 0;
+	float: left;
+}
+
+.founder:last-child{
+	margin: 5% 0% 5% 0%;
+	float: left;
+	padding: 0;
+}
+
+.fimg{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	display: inline-block;
+}
+
+.fname{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin: 25px 0px 10px 0px;
+	padding: 0;
+	font-size: 26px;
+}
+
+.fplace{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	font-size: 18px;
+	color: rgba(0,0,0,0.4);
+	font-family: "arial";
+}
+
+.finfo{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin: 0px;
+	padding: 0;
+	font-size: 18px;
+	color: rgba(0,0,0,0.4);
+	box-sizing: border-box;
+}
+
+.main_founder{
+	width: 70%;
+	display: inline-block;
+	margin: 0 15% 0 15%;
+	padding:10% 0 10% 0;
+}
+
+.mfimg{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	display: inline-block;
+	margin-top: 10%;
+}
+
+.mfname{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin: 25px 0px 10px 0px;
+	padding: 0;
+	font-size: 22px;
+}
+
+.mfplace{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	font-size: 18px;
+	color: rgba(0,0,0,0.4);
+	font-family: "arial";
+}
+
+.mfinfo{
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	margin-top: 2%;
+	padding: 0;
+	font-size: 24px;
+	color: rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+.footer{
+	width: 100%;
+	margin: 0;
+	padding:0;
+	float: left;
+	background:#1E1E1C;
+}
+
+.footer1{
+	width: 100%;
+	margin:0;
+	padding:0;
+	background:#FD7E14;
+	padding: 5% 0 5% 0;
+}
+
+.mtext{
+	color: white;
+	font-size: 30px;
+	margin-top: -14px;
+	padding: 0;
+	float: left;
+}
+
+.butt_contact_us{
+	border:2px solid white;
+	float: right;
+	color: white;
+	width: 300px;
+	height: 50px;
+	font-size: 22px;
+	background:#FD7E14;
+	font-weight: 300;
+	margin-top: -21px;
+}
+
+.footer2{
+	width: 100%;
+	float: left;
+	margin: 10% 0 10% 0;
+	padding: 0;
+}
+
+.mini_footer{
+	width: 20%;
+	float: left;
+	margin-left:6.66%;
+	padding:0;
+}
+
+.mini_footer:last-child{
+	float: left;
+	margin:0px;
+	padding:0;
+}
+
+.ftitle{
+	float: left;
+	font-size: 18px;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.detai{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: rgba(255,255,255,0.4);
+	font-size: 16px;
+	line-height: 38px;
+} 
+
+.butt_read_more{
+	float: left;
+	margin-top:8%;
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+	border:none;
+	border-radius: 5px;
+	background: #FD7E14;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;        
+} 
+
+.footer2 ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+	width: 100%;
+}
+
+.footer2 ul li{
+	margin: 0px;
+	padding:0;
+	color: rgba(255,255,255,0.4);
+	font-size: 16px;
+	line-height: 38px;
+}
+
+@media only screen and (max-width: 320px)
+{
+	body{float: none;width: 100%;padding:10% 0 10% 0; margin:0; box-sizing: border-box;}
+
+	.container{width: 98%;margin: 0 1% 0 1%;float: left;}
+
+	.header .logo_text {width:100%;float: left;text-align: center;}
+
+	.header ul{list-style-type: none;float: none;width: 100%;}
+
+	.header ul li{display: block; text-align:center; line-height: 30px;}	
+
+	.main_title .text2:before{width: 10%;}
+
+	.banner{width: 100%;height: 380px; background-size: contain;background-position:  left center;}
+
+	.banner_text{top: 154px;left: 22px; line-height: 10px; }
+
+	.banner_text1 {font-size: 17px;}
+
+	.insurance {width: 100%; float: none; border:none;}
+
+	.insu_name{float: left;width: 100%;text-align:center; margin: 0;padding: 10px 0 0 0;}
+
+	.insurance img{float: none;}
+
+	.learn_more {float: left;text-align: center; width: 100%; margin: 0 0 15px 0; padding: 0}
+ 
+ 	.text_trusted_company {text-align: center;font-size: 9px;}
+
+ 	.img_trusted{height: 200px;}
+
+ 	.info_trusted{float:left;width: 100%;padding: 10px 0 0 0;margin: 0}
+
+ 	.message{width: 100%;font-size: 14px;margin: 0;padding: 0;float: none;line-height: 32px;}
+
+ 	.contentA_img {float: left;width: 100%;height: 200px;}
+
+ 	.contentB_img {float: left;width: 100%;height: 200px;padding: 0;margin: 0;}
+
+ 	.contentA_details{width:100%;float: left; padding-top: 10%;margin: 0;}
+
+ 	.contentB_details{width:100%;float: right; padding: 10% 0 10% 0; margin: 0; }
+
+ 	.main_title2{float: none;padding: 0;margin: 0;}
+
+ 	.main_title2 .text1 {font-size: 14px;margin: 0;padding: 0;}
+
+ 	.main_title2 .text2 {font-size: 24px;margin: 0; padding: 0;}
+
+ 	.main_title2 .text2:after{width: 20%;bottom: -13px;left: 25%;}
+
+ 	.services ul li{width: 100%;border:none;margin: 0;padding:25px 0 0 0;}
+
+ 	.services ul li:first-child{margin: 0;padding:25px 0 0 0;}
+
+ 	.img_house_damage{width: 100%;}
+
+ 	.details_house_damage{width: 100%;margin: 0;padding: 0;}
+
+ 	.img_house_damage img{width: 100%;float: left;height: 200px;}
+
+ 	.details_house_damage .hdtitle{width: 100%;font-size: 22px;float: left;text-align:center;}
+
+ 	.details_house_damage .hdtitle:after {left: 43%;width: 15%;}
+
+ 	.insured_yours_now{float: none;}
+
+ 	.founder{width: 100%;}
+
+ 	.finfo{font-size: 14px;padding: 0 1px 0 1px;}
+
+ 	.footer1{width: 100%;float: left;}
+
+ 	.mtext{width: 100%;}
+
+ 	.footer2{margin:0;padding:0;float: none;}
+
+ 	.butt_read_more{margin:10px 0 10px 0;}
+
+ 	.mini_footer{width: 100%;margin:10px 0 0 0;padding: 0;}
+
+ 	.class_read_more{float: left;text-align:center;}
+
+ 	.butt_contact_us{width: 230px;float: none;margin:20px 0 0 25px;}
+
+ 	.mtext {font-size: 22px;float: none;}
+}
